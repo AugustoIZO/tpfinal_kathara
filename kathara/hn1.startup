@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+ip address add 172.16.105.1/27 dev eth0
+ip route add default via 172.16.105.30
+/etc/init.d/apache2 start
+cp /shared/resolv.conf /etc/resolv.conf

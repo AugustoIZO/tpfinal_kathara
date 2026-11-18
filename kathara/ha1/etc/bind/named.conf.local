@@ -1,0 +1,19 @@
+zone "augusto.izo" {
+    type master;
+    file "/etc/bind/zones/db.augusto.izo";
+};
+
+zone "10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.10.rev";
+};
+
+zone "16.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.172.16.rev";
+};
+
+zone "168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.192.168.rev";
+};

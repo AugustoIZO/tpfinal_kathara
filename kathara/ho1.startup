@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+ip address add 172.16.106.1/28 dev eth0
+ip route add default via 172.16.106.14
+cp /shared/resolv.conf /etc/resolv.conf

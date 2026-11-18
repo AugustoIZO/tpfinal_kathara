@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+dhclient eth0
+cp /shared/resolv.conf /etc/resolv.conf

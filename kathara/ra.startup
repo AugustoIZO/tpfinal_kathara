@@ -1,0 +1,9 @@
+ulimit -n 1024
+/etc/init.d/quagga start
+
+iptables -t nat -A PREROUTING -i eth4 -p tcp --dport 80 \
+         -j DNAT --to-destination 172.16.105.1:80
+iptables -A FORWARD -p tcp -d 172.16.105.1 --dport 80 -j ACCEPT
+
+iptables -t nat -A POSTROUTING -o eth4 -j MASQUERADE
+cp /shared/resolv.conf /etc/resolv.conf

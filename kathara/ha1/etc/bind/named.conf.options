@@ -1,0 +1,15 @@
+options {
+    directory "/var/cache/bind";
+
+    // Resuelve dominios que no son de la empresa (punto 4.f)
+    forwarders {
+        8.8.8.8;
+        8.8.4.4;
+    };
+
+    recursion yes;
+    allow-recursion { any; };
+    allow-query { any; };
+    listen-on { 192.168.10.1; 127.0.0.1; };
+    dnssec-validation no;
+};
