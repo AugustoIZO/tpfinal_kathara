@@ -9,12 +9,12 @@ $TTL 604800
 @       IN  NS  ns1.augusto.izo.
 
 1.0.0       IN  PTR hb1.augusto.izo.
-254.255.1   IN  PTR eth3.rb.augusto.izo.
+254.255.1   IN  PTR rb3.augusto.izo.
 1.0.2       IN  PTR hf1.augusto.izo.
-254.1.2     IN  PTR eth3.rf.augusto.izo.
+254.1.2     IN  PTR rf3.augusto.izo.
 1.0.3       IN  PTR hj1.augusto.izo.
-62.0.3      IN  PTR eth3.rj.augusto.izo.
+62.0.3      IN  PTR rj3.augusto.izo.
 1.1.3       IN  PTR hk1.augusto.izo.
-30.1.3      IN  PTR eth3.rk.augusto.izo.
+30.1.3      IN  PTR rk3.augusto.izo.
 1.2.3       IN  PTR hl1.augusto.izo.
-14.2.3      IN  PTR eth3.rl.augusto.izo.
+14.2.3      IN  PTR rl3.augusto.izo.

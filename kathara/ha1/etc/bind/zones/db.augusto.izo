@@ -13,115 +13,115 @@ ns1     IN  A   192.168.10.1
 
 ; RA  (alias ra -> IP de su LAN)
 ra      IN  A   192.168.10.254
-eth0.ra         IN  A   192.168.100.6
-eth1.ra         IN  A   192.168.100.9
-eth2.ra         IN  A   192.168.100.41
-eth3.ra         IN  A   192.168.10.254
+ra0         IN  A   192.168.100.6
+ra1         IN  A   192.168.100.9
+ra2         IN  A   192.168.100.41
+ra3         IN  A   192.168.10.254
 
 ; RB  (alias rb -> IP de su LAN)
 rb      IN  A   10.1.255.254
-eth0.rb         IN  A   192.168.100.42
-eth1.rb         IN  A   192.168.100.45
-eth2.rb         IN  A   192.168.100.49
-eth3.rb         IN  A   10.1.255.254
+rb0         IN  A   192.168.100.42
+rb1         IN  A   192.168.100.45
+rb2         IN  A   192.168.100.49
+rb3         IN  A   10.1.255.254
 
 ; RC  (alias rc -> IP de su LAN)
 rc      IN  A   172.16.63.254
-eth0.rc         IN  A   192.168.100.10
-eth1.rc         IN  A   192.168.100.13
-eth2.rc         IN  A   192.168.100.53
-eth3.rc         IN  A   172.16.63.254
+rc0         IN  A   192.168.100.10
+rc1         IN  A   192.168.100.13
+rc2         IN  A   192.168.100.53
+rc3         IN  A   172.16.63.254
 
 ; RD  (alias rd -> IP de su LAN)
 rd      IN  A   172.16.95.254
-eth0.rd         IN  A   192.168.100.50
-eth1.rd         IN  A   192.168.100.54
-eth2.rd         IN  A   192.168.100.61
-eth3.rd         IN  A   172.16.95.254
+rd0         IN  A   192.168.100.50
+rd1         IN  A   192.168.100.54
+rd2         IN  A   192.168.100.61
+rd3         IN  A   172.16.95.254
 
 ; RE  (alias re -> IP de su LAN)
 re      IN  A   192.168.20.14
-eth0.re         IN  A   192.168.100.58
-eth1.re         IN  A   192.168.100.62
-eth2.re         IN  A   192.168.100.77
-eth3.re         IN  A   192.168.100.90
-eth4.re         IN  A   192.168.20.14
+re0         IN  A   192.168.100.58
+re1         IN  A   192.168.100.62
+re2         IN  A   192.168.100.77
+re3         IN  A   192.168.100.90
+re4         IN  A   192.168.20.14
 
 ; RF  (alias rf -> IP de su LAN)
 rf      IN  A   10.2.1.254
-eth0.rf         IN  A   192.168.100.70
-eth1.rf         IN  A   192.168.100.74
-eth2.rf         IN  A   192.168.100.78
-eth3.rf         IN  A   10.2.1.254
+rf0         IN  A   192.168.100.70
+rf1         IN  A   192.168.100.74
+rf2         IN  A   192.168.100.78
+rf3         IN  A   10.2.1.254
 
 ; RG  (alias rg -> IP de su LAN)
 rg      IN  A   172.16.103.254
-eth0.rg         IN  A   192.168.100.18
-eth1.rg         IN  A   192.168.100.73
-eth2.rg         IN  A   172.16.103.254
+rg0         IN  A   192.168.100.18
+rg1         IN  A   192.168.100.73
+rg2         IN  A   172.16.103.254
 
 ; RH  (alias rh -> IP de su LAN)
 rh      IN  A   192.168.30.6
-eth0.rh         IN  A   192.168.100.14
-eth1.rh         IN  A   192.168.100.17
-eth2.rh         IN  A   192.168.100.57
-eth3.rh         IN  A   192.168.100.65
-eth4.rh         IN  A   192.168.30.6
+rh0         IN  A   192.168.100.14
+rh1         IN  A   192.168.100.17
+rh2         IN  A   192.168.100.57
+rh3         IN  A   192.168.100.65
+rh4         IN  A   192.168.30.6
 
 ; RI  (alias ri -> IP de su LAN)
 ri      IN  A   192.168.31.2
-eth0.ri         IN  A   192.168.100.66
-eth1.ri         IN  A   192.168.100.69
-eth2.ri         IN  A   192.168.31.2
+ri0         IN  A   192.168.100.66
+ri1         IN  A   192.168.100.69
+ri2         IN  A   192.168.31.2
 
 ; RJ  (alias rj -> IP de su LAN)
 rj      IN  A   10.3.0.62
-eth0.rj         IN  A   192.168.100.2
-eth1.rj         IN  A   192.168.100.5
-eth2.rj         IN  A   192.168.100.37
-eth3.rj         IN  A   10.3.0.62
+rj0         IN  A   192.168.100.2
+rj1         IN  A   192.168.100.5
+rj2         IN  A   192.168.100.37
+rj3         IN  A   10.3.0.62
 
 ; RK  (alias rk -> IP de su LAN)
 rk      IN  A   10.3.1.30
-eth0.rk         IN  A   192.168.100.1
-eth1.rk         IN  A   192.168.100.21
-eth2.rk         IN  A   192.168.100.25
-eth3.rk         IN  A   10.3.1.30
+rk0         IN  A   192.168.100.1
+rk1         IN  A   192.168.100.21
+rk2         IN  A   192.168.100.25
+rk3         IN  A   10.3.1.30
 
 ; RL  (alias rl -> IP de su LAN)
 rl      IN  A   10.3.2.14
-eth0.rl         IN  A   192.168.100.22
-eth1.rl         IN  A   192.168.100.29
-eth2.rl         IN  A   192.168.100.86
-eth3.rl         IN  A   10.3.2.14
+rl0         IN  A   192.168.100.22
+rl1         IN  A   192.168.100.29
+rl2         IN  A   192.168.100.86
+rl3         IN  A   10.3.2.14
 
 ; RM  (alias rm -> IP de su LAN)
 rm      IN  A   172.16.104.62
-eth0.rm         IN  A   192.168.100.30
-eth1.rm         IN  A   192.168.100.34
-eth2.rm         IN  A   192.168.100.38
-eth3.rm         IN  A   192.168.100.46
-eth4.rm         IN  A   192.168.100.82
-eth5.rm         IN  A   172.16.104.62
+rm0         IN  A   192.168.100.30
+rm1         IN  A   192.168.100.34
+rm2         IN  A   192.168.100.38
+rm3         IN  A   192.168.100.46
+rm4         IN  A   192.168.100.82
+rm5         IN  A   172.16.104.62
 
 ; RN  (alias rn -> IP de su LAN)
 rn      IN  A   172.16.105.30
-eth0.rn         IN  A   192.168.100.26
-eth1.rn         IN  A   192.168.100.33
-eth2.rn         IN  A   172.16.105.30
+rn0         IN  A   192.168.100.26
+rn1         IN  A   192.168.100.33
+rn2         IN  A   172.16.105.30
 
 ; ROP  (alias rop -> IP de su LAN)
 rop     IN  A   192.168.40.62
-eth0.rop        IN  A   192.168.100.81
-eth1.rop        IN  A   192.168.100.85
-eth2.rop        IN  A   172.16.106.14
-eth3.rop        IN  A   192.168.40.62
+rop0        IN  A   192.168.100.81
+rop1        IN  A   192.168.100.85
+rop2        IN  A   172.16.106.14
+rop3        IN  A   192.168.40.62
 
 ; RQR  (alias rqr -> IP de su LAN)
 rqr     IN  A   192.168.42.14
-eth0.rqr        IN  A   192.168.100.89
-eth1.rqr        IN  A   192.168.41.30
-eth2.rqr        IN  A   192.168.42.14
+rqr0        IN  A   192.168.100.89
+rqr1        IN  A   192.168.41.30
+rqr2        IN  A   192.168.42.14
 
 ; ---- Hosts ----
 ha1     IN  A   192.168.10.1
